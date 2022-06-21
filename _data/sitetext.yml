@@ -1,110 +1,64 @@
-header:
-    title: WELCOME TO ZHANG LAB #<br> Academy of Medical Engineering and Translational Medicine Tianjin University
-    stitle: Academy of Medical Engineering and Translational Medicine, Tianjin University
-    text: 'We focus on computational immunology and omics data mining and modeling'
-    buttonall:
-        - button: Join us!
-          buttonlink: "#contact"
-        - button: Research
-          buttonlink: "#research"
-
 
 research:
-    title: "Research"
+    title: "Current Research"
     section: research
     list:
       - title: "Computational Immunology "
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        #img: assets/img/portfolio/04-thumbnail.jpg
-        icon: fas fa-book-medical #find more at https://fontawesome.com/icons
-      - title: "Bioinformatics "
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        #img: assets/img/portfolio/05-thumbnail.jpg
-        icon: fas fa-laptop-medical
-      - title: "Omics Data Mining and Modeling "
-        desc: "Your description here, full **Markdown** support"
-        icon: fas fa-dna
-        #img: assets/img/portfolio/06-thumbnail.jpg
+        desc: "T and B cells are the two cores of the adaptive immune system, and both express antigen-specific receptors at their surface, namely, T cell receptors (TCRs) and B cell receptors (BCRs). The broad diversity of TCR and BCR ensures that the adaptive immune system is capable of recognizing a vast array of antigens, including pathogens, auto-antigens, allergens, and tumor neoantigens. Thus profiling and characterizing those antigen-specific receptors has become an important part of basic and clinical immunology research. We are interested in developing computational technologies to investigate the link between TCR/BCR sequence and epitope binding specificity, and to explore their potential for disease detection and monitoring the responses to therapy."
 
-resource:
-    title: "Resources"
-    section: resource
-    list:
-      - title: "First "
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        #img: assets/img/portfolio/04-thumbnail.jpg
-        icon: fas fa-laptop #find more at https://fontawesome.com/icons
-      - title: "Second "
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        #img: assets/img/portfolio/05-thumbnail.jpg
-        icon: fas fa-tools
-      - title: "and" #"[Markdown](https://baidu.com)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fas fa-heartbeat
-        #img: assets/img/portfolio/06-thumbnail.jpg
+      - title: "Multi-omics Data Mining "
+        desc: "The concept of “omics” refers to the fact that all or nearly all instances of the targeted molecular space are measured in the assay, and therefore they provide holistic views of the biological system. The efficient processing and analysis of the omics data, especially extracting and discovering patterns from these data, has brought many challenges to bioinformatics and computational biology. As a computational biologist with a background in computer science, I’m particularly interested in developing and applying novel machine learning and data mining approaches to address these challenges. "
+
+
 
 
 portfolio:
-    title: "Publications"
+    title: "Selected Publications"
     section: portfolio
-    text: "Recent Highlights"
     closebutton: "Close Paper"
     rawbutton: "Journal Page"
     button: View More
     buttonlink: "publication"
 
 
-timeline:
-    title: "About"
-    section: timeline
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Start"
-        year: "2020-2021"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "An Lab is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the aligment
-        align: left
-    end: "Evert thing <br> will be <br> Past!"
+
+
+biography:
+    title: "PI"
+    subtext:
+    section: biography
+    people:
+      - name: "Jian Zhang, Ph.D."
+        role: "Associate professor"
+        description: 'Academy of Medical Engineering amd Translational Medicine, Tianjin University'
+        image: assets/img/team/1.jpg
 
 
 team:
     title: "TEAM MEMBERS"
     subtext:
     section: team
-    people:
-      - name: "Jian Zhang"
-        role: "PRINCIPAL INVESTIGATOR"
-        description: "balabalbala blabalbal baabdbasdbasjdbjsakbdjksabdk asb"
-        image: assets/img/team/1.jpg
-        social:
-          - url: https:/garyddd.github.io/moreinfo
-            icon: far fa-id-card-o
+    student:
       - name: "Yunsheng Dou"
         role: "GRADUATE STUDENT"
-        description: 'Yunsheng Dou is a TJU master student in intelligent medical engineering. He is currently interested in omics data mining and modeling, and then through the analysis of the data, he can solve or raise some interesting phenomena and problems in medicine. Yunsheng got his bachelor’s degree of communication engineering at Hohai University in China.'
+        description: 'Yunsheng Dou is a graduate student in intelligent medical engineering at Tianjin University. He is currently interested in developing computational methods to analyze the large scale TCR-seq data. Yunsheng got his bachelor’s degree of communication engineering at Hohai University in China.'
         image: assets/img/team/2.jpg
 
+      - name: "Shiwen Shan"
+        role: "GRADUATE STUDENT"
+        description: "Shiwen Shan is a graduate student in intelligent medical engineering at Tianjin University. Shiwen got her bachelor's degree of software engineering at China University of petroleum-Beijing at Karamay."
+        image: assets/img/team/3.jpg
 
-contact:
-    title: "Contact Us"
-    text: ""
-    section: contact
+
+#
+# contact:
+#     title: "Contact Us"
+#     text: ""
+#     section: contact
 
 footer:
     legal: "Privacy Policy"
+    lasttime: 2021/9/3
     # social:
     #   - url: https://twitter.com
     #     icon: "fab fa-twitter"

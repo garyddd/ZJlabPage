@@ -13,18 +13,18 @@
 
 
 
-theme: jekyll-agency
+theme: 
 
 url    : "" # the heading-fontbase hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : Zhang Lab
+# title      : Zhang Lab
 email      : jian_zhang@tju.edu.cn #this is also the email contact forms will go to
 description: "Amazing"
 author     : Gary
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
+logo:     #optional, defaults to site title
+  path: assets\img\logo.png
+  height: 80 #height in px, defaults to 52px
 
 analytics:
   google: #Google Analytics tracking code here

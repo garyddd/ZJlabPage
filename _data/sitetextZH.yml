@@ -1,105 +1,58 @@
-header:
-    title: WELCOME TO ZHANG LAB #<br> Academy of Medical Engineering and Translational Medicine Tianjin University
-    stitle: '天津大学  医学工程与转化医学研究院'
-    text: '我们聚焦于计算免疫学和组学数据挖掘与建模'
-    buttonall:
-        - button: 加入我们
-          buttonlink: "#contactZH"
-        - button: 研究方向
-          buttonlink: "#researchZH"
-
 
 research:
     title: "研究方向"
     section: researchZH
     list:
       - title: "计算免疫学 "
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        #img: assets/img/portfolio/04-thumbnail.jpg
-        icon: fas fa-book-medical #find more at https://fontawesome.com/icons
-      - title: "生物信息学 "
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        #img: assets/img/portfolio/05-thumbnail.jpg
-        icon: fas fa-laptop-medical
-      - title: "组学数据挖掘与建模"
-        desc: "Your description here, full **Markdown** support"
-        icon: fas fa-dna
-        #img: assets/img/portfolio/06-thumbnail.jpg
+        desc: "T细胞和B细胞是适应性免疫系统的两个核心，均在其表面表达抗原特异性受体，即T细胞受体（TCRs）和B细胞受体（BCRs）。 TCR 和 BCR 的广泛多样性确保适应性免疫系统能够识别大量抗原，包括病原体、自身抗原、过敏原和肿瘤新抗原。 因此，分析和表征这些抗原特异性受体已成为基础和临床免疫学研究的重要组成部分。 我们有兴趣开发计算技术来研究 TCR/BCR 序列与表位结合特异性之间的联系，并探索它们在疾病检测和监测治疗反应方面的潜力。"
 
-resource:
-    title: "资源"
-    section: resourceZH
-    list:
-      - title: "First "
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        #img: assets/img/portfolio/04-thumbnail.jpg
-        icon: fas fa-laptop #find more at https://fontawesome.com/icons
-      - title: "Second "
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        #img: assets/img/portfolio/05-thumbnail.jpg
-        icon: fas fa-tools
-      - title: "and" #"[Markdown](https://baidu.com)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fas fa-heartbeat
-        #img: assets/img/portfolio/06-thumbnail.jpg
+      - title: "多组学数据挖掘 "
+        desc: "“组学”是指在测定中测量所有或几乎所有目标分子空间，因此它们提供了生物系统的整体视图。 组学数据的高效处理和分析，尤其是从这些数据中提取和发现模式，给生物信息学和计算生物学带来了许多挑战。 作为具有计算机科学背景的计算生物学家，我对开发和应用新颖的机器学习和数据挖掘方法来应对这些挑战特别感兴趣。"
+
 
 
 portfolio:
     title: "研究成果"
     section: portfolio
-    text: "代表性论文"
+    # text: "代表性论文"
     closebutton: "Close Project"
     button: 查看更多
     buttonlink: "publicationZH"
 
-
-timeline:
-    title: "关于"
-    section: timelineZH
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "开始"
-        year: "2020-2021"
-        desc: "这是中文, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "人员加入"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the aligment
-        align: left
-    end: "Evert thing <br> will be <br> Past!"
-
+#
+biography:
+    title: "PI"
+    subtext:
+    section: biographyZH
+    people:
+      - name: "张 健 博士"
+        role: "副教授"
+        description: '天津大学医学工程与转化医学研究院'
+        # contact:
+        image: assets/img/team/1.jpg
+        social:
+          - url: moreinfoZH
+            icon: fas fa-id-card
 
 team:
     title: "团队成员"
     subtext:
     section: teamZH
-    people:
-      - name: "张 健"
-        role: PI
-        description: "张健，博士，副教授，入选天津大学-北洋学者英才计划。主要聚焦于生物医学大数据（分子组学数据）处理与分析关键技术，重点面向肿瘤精准医疗和传染病防控安全实际需求开展研究工作。近年来以技术骨干、参与人身份参加了5项包括国家科技重大专项、国防科技创新特区项目、国家自然科学基金委面上项目以及国家863计划项目的实施；发表SCI期刊论文13篇，其中以第一作者（含并列第一）身份在包括Nature Genetics, Nature Biotechnology, Genome Medicine在内的权威国际期刊发表论文4篇，以署名作者身份在Nature Genetics, Nature Communication, Clinical Cancer Research等杂志发表论文9篇，平均影响因子11.868，谷歌H指数8。"
-        image: assets/img/team/1.jpg
-        social:
-          - url: moreinfoZH
-            icon: fas fa-id-card
+    student:
       - name: "豆允生"
         role: 硕士生
-        description: "豆允生是天津大学智能医学工程的硕士生。他目前对组学数据挖掘和建模感兴趣，通过对数据的挖掘与分析，可以解决或提出一些在医学上有趣的现象与问题。本科就读于河海大学通信工程专业。"
+        description: "豆允生是天津大学2020级智能医学工程专业的研究生。他目前对开发计算方法来分析大规模TCR-seq数据感兴趣。本科就读与河海大学通信工程专业。 "
         image: assets/img/team/2.jpg
 
-contact:
-    title: "联系我们"
-    text:
-    section: contactZH
+      - name: "单世雯"
+        role: 硕士生
+        description: "单世雯是天津大学2021级智能医学工程专业的研究生。她在中国石油大学（北京）克拉玛依校区获得了软件工程学士学位。"
+        image: assets/img/team/3.jpg
+
+# contact:
+#     title: "联系我们"
+#     text:
+#     section: contactZH
 
 footer:
     legal: "Privacy Policy"

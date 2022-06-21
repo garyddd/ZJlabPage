@@ -1,5 +1,5 @@
 <!-- Team -->
-<section class="bg-light page-section" id="{{ site.data.sitetextZH.team.section | default: "teamZH" }}">
+<section class="page-section" id="{{ site.data.sitetextZH.team.section | default: "teamZH" }}">
 <div class="container">
   <div class="row">
 	<div class="col-lg-12 text-center">
@@ -8,8 +8,8 @@
 	</div>
   </div>
   <div class="row">
-  {% for person in site.data.sitetextZH.team.people %}
-	<div class="col-sm-4">
+  {% for person in site.data.sitetextZH.team.student %}
+	<!-- <div class="col-sm-4">
 	  <div class="team-member">
 		<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
 		<h4>{{ person.name }}</h4>
@@ -25,7 +25,15 @@
 		{% endfor %}
 		</ul>
 	  </div>
-	</div>
+	</div> -->
+  <div class="col-sm-12">
+    <div class="team-member" style='float:left;margin-right:10%'>
+      <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="" >
+      <h4>{{ person.name }}</h4>
+      <p class="text-muted">{{ person.role }}</p>
+    </div>
+      <p style='margin-top:5%;font-size:20px' >{{ person.description }}</p>
+  </div>
   {% endfor %}
   </div>
   <div class="row">

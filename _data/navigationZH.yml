@@ -1,21 +1,22 @@
 nav:
-  - title: "研究"
+  - title: "主页"
+    url: indexZH
+
+  - title: "个人简介"
+    section: biographyZH
+
+  - title: "研究方向"
     section: researchZH
 
-  - title: "成果"
+  - title: "研究成果"
     section: portfolio
 
-  - title: "资源"
-    section: resourceZH
-
-  - title: "团队"
+  - title: "团队成员"
     section: teamZH
 
-  - title: "关于"
-    section: timelineZH
-
-  - title: "联系"
-    section: contactZH
+  #
+  # - title: "联系我们"
+  #   section: contactZH
 
   - title: "English"
     url: index

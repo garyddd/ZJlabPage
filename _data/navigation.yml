@@ -1,21 +1,23 @@
 nav:
+  - title: 'Home'
+    url: index
+
+  - title: "Biography"
+    section: biography
+
   - title: "Research"
     section: research
 
   - title: "Publications"
     section: portfolio
 
-  - title: "Resources"
-    section: resource
 
   - title: "Team"
     section: team
 
-  - title: "About"
-    section: timeline
-
-  - title: "Contact"
-    section: contact
+  #
+  # - title: "Contact"
+  #   section: contact
 
   - title: "中文(简体)"
     url: indexZH
